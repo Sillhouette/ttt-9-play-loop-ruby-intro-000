@@ -36,3 +36,15 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  turn = 0
+  while turn < 9
+    if turn % 2 == 0
+      player = "X"
+    else
+      player = "O"
+    end
+    turn(board)
+    turn++
+  end
+end
