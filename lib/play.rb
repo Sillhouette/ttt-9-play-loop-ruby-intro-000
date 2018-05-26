@@ -45,6 +45,6 @@ def play(board)
       player = "O"
     end
     turn(board)
-    turn++
+    turn += 1
   end
 end
