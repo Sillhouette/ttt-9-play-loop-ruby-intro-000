@@ -37,14 +37,14 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 0
-  while turn < 10
-    if turn % 2 == 0
+  current_turn = 0
+  while current_turn < 10
+    if current_turn % 2 == 0
       player = "X"
     else
       player = "O"
     end
     turn(board)
-    turn += 1
+    current_turn += 1
   end
 end
