@@ -39,11 +39,11 @@ end
 def play(board)
   current_turn = 0
   while current_turn < 10
-    if current_turn % 2 == 0
-      player = "X"
-    else
-      player = "O"
-    end
+    #if current_turn % 2 == 0
+    #  player = "X"
+    #else
+    #  player = "O"
+    #end
     turn(board)
     current_turn += 1
   end
