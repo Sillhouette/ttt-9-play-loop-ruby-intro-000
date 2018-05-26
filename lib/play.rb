@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   current_turn = 0
-  while current_turn < 10
+  until current_turn == 9
     #if current_turn % 2 == 0
     #  player = "X"
     #else
